@@ -5,7 +5,7 @@ var day = ("0" + date.getDate()).slice(-2)
 var month = ("0" + (date.getMonth() + 1)).slice(-2)
 
 
-daten.textContent = `${year}-` + `${month}-`+ `${day}`
+daten.textContent = ` Today is August` + ` ${day},`+ ` ${year}`
 
 const clock = document.querySelector('#clock')
     
